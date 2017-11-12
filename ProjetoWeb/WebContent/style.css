@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+
+body {
+
+}
+
+h3{
+	font-family: Arial;
+	
+}
+
+#Login{
+	background-color:#1992b7;
+	width:450px;
+	height:400px;
+	margin:140px auto 0px;
+	border-radius: 5px;
+	opacity:0.5;
+	
+}
+
+#Login-interno{
+	background-color: white;
+	width:430px;
+	height:380px;
+	position:absolute;
+	margin:10px;
+	border-radius: 5px;
+	box-shadow: 10px 5px 55px black;
+	overflow:hidden;
+	
+}
+
+#login-title{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e2e2e2+0,dbdbdb+50,d1d1d1+51,fefefe+100;Grey+Gloss+%231 */
+background: #e2e2e2; /* Old browsers */
+background: -moz-linear-gradient(top,  #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+
+	height:45px;
+	text-align: center;
+	font:bold 14px/45px sans-serif;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom:1px solid #bfc3c5;
+	box-shadow:1px 0px 3px #dedede;
+	color #555555;
+	
+	
+}
+
+.loginUsuario{
+	margin: 20px;
+	padding:5px;
+	background-color:#f2f5f7;
+	border-radius:3px;
+}
+.loginUsuario input{
+	width:310px;
+	height:35px;
+	padding-left:5px;
+	font: normal 13px sans-serif;
+	color:#aeaeae;
+	border-radius:3px;
+	border: 1px solid bfc4c6;
+	outline:none;
+}
+
+.loginUsuario:hover{
+	background-color:e0fffc;
+}
+
+.loginUsuario:hover input{
+	border-color:#7d6cdd;
+}
+
+#senhaUsuario{
+	margin-top:10px;
+	
+}
